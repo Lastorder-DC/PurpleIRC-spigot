@@ -144,9 +144,9 @@
         
         <!-- PircBotX -->
         <dependency>
-            <groupId>com.cnaude.pircbotx</groupId>
-            <artifactId>pircbotx-shaded</artifactId>
-            <version>2.1.8</version>
+            <groupId>org.pircbotx</groupId>
+            <artifactId>pircbotx</artifactId>
+            <version>2.1.12</version>
         </dependency>
                      
         <dependency>
@@ -504,10 +504,6 @@
                             <filters>
                             </filters>
                             <relocations>
-                                <relocation>
-                                    <pattern>org.pircbotx</pattern>
-                                    <shadedPattern>com.cnaude.purpleirc.ext.org.pircbotx</shadedPattern>
-                                </relocation>
                                 <relocation>
                                     <pattern>org.apache.commons.lang3</pattern>
                                     <shadedPattern>com.cnaude.purpleirc.ext.org.apache.commons.lang3</shadedPattern>
