@@ -64,7 +64,12 @@
         <repository>
             <id>dynmap</id>
             <url>https://repo.mikeprimm.com/</url>
-        </repository>        
+        </repository>
+             
+        <repository>
+            <id>jitpack.io</id>
+            <url>https://jitpack.io</url>
+        </repository>
 
     </repositories>
     
