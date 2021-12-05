@@ -20,6 +20,11 @@
     <repositories>
         <!-- For anything else without its own repo -->
         <repository>
+            <id>lastorder-repo</id>
+            <url>https://ftp.yjsoft.xyz/maven-repo/</url>
+        </repository>
+        
+        <repository>
             <id>cnaude-repo</id>
             <url>https://repo.chrisnaude.com/</url>
         </repository>
